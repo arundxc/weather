@@ -4,6 +4,7 @@ import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.weather.test.databinding.ActivityMainBinding
+import com.weather.test.pojo.Temp
 import com.weather.test.pojo.WeatherModule
 
 class MainActivity : AppCompatActivity() {
@@ -17,6 +18,9 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
         var weatherModule = WeatherModule()
         binding.weather=(weatherModule)
+
+        var arun = Temp()
+        binding.arun=(arun)
 
 
     }
