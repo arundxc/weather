@@ -1,6 +1,5 @@
 package com.weather.test.pojo;
 
-import android.database.Observable;
 import android.databinding.ObservableField;
 
 /**
