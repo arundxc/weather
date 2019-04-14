@@ -9,7 +9,7 @@ import dagger.Provides;
  * Created by Arun on 06/04/19.
  */
 @Module
-public class ResponseModal {
+public class ServiceResponseModal {
 
     @Named("weather")
     @Provides

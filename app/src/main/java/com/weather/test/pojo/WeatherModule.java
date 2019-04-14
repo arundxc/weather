@@ -8,7 +8,9 @@ import android.databinding.ObservableField;
 
 public class WeatherModule {
 
+
     public ObservableField<String> todayWeather = new ObservableField<>("90f");
+
 
 
 }
